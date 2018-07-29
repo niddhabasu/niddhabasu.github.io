@@ -1,0 +1,37 @@
+<DOCTYPE html>
+<html>
+  <head>
+      
+     <title>Discussion</title>
+     
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+
+   </head>
+   <body>
+         <a-assets>
+                <img id="texture" src="images/texture.jpeg">
+                <img id="text" src="images/text.png">
+                <img id="te" src="images/te.jpg">
+        </a-assets>
+    <a-scene>
+     
+       <a-sky src="images/ClassroomScene.jpg" rotation="0 -360 0"></a-sky>
+       <a-text font="kelsonsans" value="when you are too sleepy !" width="10" color="black" position="-10.5 4.5 -6" rotation="0 -360 0"></a-text>
+       <a-box position="0 2.5 -4" height="1" width="1" depth="1" color="blue" rotation="45 45 45" src="#texture" shadow>
+                 </a-box>
+               <a-cylinder color="white" height="2" radius="1" position="-4 1.5 -6" depth="2" rotation="45 45 45" src="#text" shadow></a-cylinder>
+               <a-sphere color="yellow" radius="1.2" position="4 1.5 -6" rotation="45 45 45" depth="2" src="#te" shadow></a-sphere>
+                <a-sphere color="green" radius="1.2" position="-8 3 -6" rotation="45 45 45" depth="2" src="#te" shadow></a-sphere>
+             
+                <a-box position="-10 2.5 -4" height="1.5" width="1.5" depth="1.5" color="red" rotation="45 45 45">
+                 </a-box>
+                <a-cylinder color="orange" height="2" radius="1" position="-12 6.5 -6" depth="2" rotation="45 45 45"></a-cylinder>
+
+           
+           
+
+    </a-scene>
+
+  </body>
+</html>
+
